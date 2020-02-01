@@ -1,0 +1,101 @@
+body{
+    background: url(img/bananas.png);
+}
+
+
+.scafoldingDiv{
+  border  : 1px solid black;
+  margin  : 0 auto;
+}
+
+#topDiv{
+  text-align  :center;
+  min-height  :55px;
+  background-color: darkseagreen;
+    
+}
+
+.table{
+    background-color:cornsilk;
+    border-radius: 10px;
+}
+
+
+
+
+#headerMainDiv{
+  width    : 575px;
+  height   : 55px;
+  float    : left;
+  overflow : hidden;
+  text-align:center;
+
+}
+
+
+
+.workarea {
+  background: #fff;
+opacity: 0.9;
+width: 85%;
+max-width: 500px;
+min-height: 300px;
+padding: 30px;
+box-sizing: border-box;
+border-radius: 8px;
+box-shadow: 0 0 20px #000000b3;
+margin: auto;
+}
+
+
+.workarea h1 {
+	margin: 0px;
+	margin-bottom: 20px;
+	font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+	letter-spacing: 1px;
+	color: #557197;
+}
+
+.workarea table tr td {
+	
+	color: #4A5D77;
+
+}
+
+
+#headerUserInfoDiv{
+  width    : 200px;
+  height   : 55px;
+  float    : right;
+  overflow : hidden;
+  border-left: 1px solid black;
+}
+
+#mainContentDiv{
+  width     : 780px;
+  min-height: 400px;
+  clear     : both;
+  overflow  : hidden;
+}
+
+#footerDiv{
+  width    : 780px;
+  height   : 50px;
+  overflow : hidden;
+}
+
+
+.logOUT:link, .logOUT:visited {
+  background: cadetblue;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+    
+.logOUT:hover, .logOUT:active {
+  background-color: #004d4d;
+}

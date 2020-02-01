@@ -1,0 +1,235 @@
+<!DOCTYPE html> 
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Uniwersum Star Wars</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/chewicona.png"/>
+	<script src="jquery-3.4.0.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="lightsaber.js"></script>
+    <script src="bgcolorchanger.js"></script>
+    <script src="timer.js"></script>
+    <script src="LoadSWAPI.js"></script>
+
+   
+</head>
+<body onload="zmienSlajd(); odliczanie();">
+	<section class="intro">
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="form.php">Rejestracja</a></li>
+				<li><a href="login.php">Zaloguj się</a></li>
+				<li><a href="#pomysl">Pomysł</a></li>
+				<li><a href="#filmysw">Filmy</a></li>
+				<li><a href="#historia">Historia</a></li>
+				<li><a href="#seriale">Seriale</a></li>
+				<li><a href="#contact">Kontakt</a></li>
+			</ul>
+		</nav>
+		<div class="inner">
+			<div class="content">
+				<img src ="img/textlogo.png" alt="Tło Star Wars">
+				<p>star wars.</p>
+				<div id ="zegar"></div>
+			</div>
+		</div>
+	</section>
+    <a id="pomysl"></a>
+<div class="clearfix"></div>
+	<section class="left-col">
+		<h2>Historia</h2>
+		<p style="text-indent: 6%;">
+
+Pomysł Gwiezdnych wojen powstał we wczesnych latach 70. XX wieku i w tym czasie był wielokrotnie zmieniany. Oryginalny film Gwiezdne wojny (jeszcze bez podtytułu Część IV: Nowa nadzieja, który dodano w 1980 roku) miał premierę w 1977 roku, ale rok wcześniej wydano adaptację książkową autorstwa Alana Deana Fostera (jako ghostwritera). Zgodnie z wypowiedzią Fostera udzieloną magazynowi Empire, w przypadku, gdyby film nie odniósł znaczącego sukcesu, planowano jego niskobudżetową kontynuację w oparciu o książkę Spotkanie na Mimban.
+
+Gwiezdne wojny okazały się jednak przebojem, co pozwoliło na nakręcenie dwóch kolejnych filmów, o uprzednio zaplanowanej fabule. W 1993 roku ogłoszono, że powstanie kolejna trylogia – prequele uzupełniające historię Anakina Skywalkera. W 1999 ukazał się pierwszy film z nowej serii – Mroczne widmo, zaś premiera szóstego filmu (w kolejności kręcenia), czyli Zemsty Sithów, odbyła się 19 maja 2005.
+
+W środowisku fanów oraz filmowym krążyło wiele plotek na temat pierwotnie zaplanowanej liczby filmów, podawano 9 czy 12 części, na podstawie wczesnych wypowiedzi Lucasa. Dane te nigdy nie zostały jednak potwierdzone oficjalnie, a od ok. 1997 roku reżyser wyraźnie stwierdzał, że uważa historię za zamkniętą i nie zamierza kręcić kolejnych ruchomych obrazów. Wypowiadał się także sceptycznie na temat ewentualnej pełnometrażowej kontynuacji Gwiezdnych wojen po swojej śmierci.
+
+30 października 2012 wytwórnia Lucasfilm, odpowiedzialna za dotychczasowe części serii, została sprzedana korporacji The Walt Disney Company (za 4,05 miliardy dolarów). Studio zaplanowało realizację trzech sequeli. Pierwszy – Przebudzenie Mocy, powstał w 2015 roku i został wyreżyserowany przez J.J. Abramsa.
+</p>
+	</section>
+	<section class="sidebar">
+	
+		<img src="img/georgelucas.jpg" alt="George Lucas - Twórca Gwiezdnych Wojen">
+	<p class = "autor">George Lucas - Twórca Gwiezdnych Wojen</p>
+	</section>
+<div class="clearfix"></div>
+<section class = "parallax1">		
+			<div id="parallax-inner"></div>
+</section>	
+			<div class="clearfix"></div>
+        <a id="filmysw"></a>
+		<h2>Filmy</h2>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/Mroczne.Widmo" target="_blank"><img src="img/cz1.jpg" alt="Mroczne Widmo"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/Atak.Klonow" target="_blank"><img src="img/cz2.jpg" alt="Atak Klonów"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/Zemsta.Sithow" target="_blank"><img src="img/cz3.jpg" alt="Zemsta Sithów"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/film/%C5%81otr+1.+Gwiezdne+wojny+-+historie-2016-712573" target="_blank"><img src="img/rogue.png" alt="Łotr Jeden"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/film/Han+Solo%3A+Gwiezdne+wojny+-+historie-2018-714149" target="_blank"><img src="img/solo.jpg" alt="Solo"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/Gwiezdne.Wojny" target="_blank"><img src="img/cz4.jpg" alt="Nowa Nadzieja"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://pl.wikipedia.org/wiki/Gwiezdne_wojny:_cz%C4%99%C5%9B%C4%87_V_%E2%80%93_Imperium_kontratakuje" target="_blank"><img src="img/cz5.jpg" alt="Imperium Kontratakuje"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/Powrot.Jedi" target="_blank"><img src="img/cz6.jpg" alt="Powrót Jedi"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/film/Gwiezdne+wojny%3A+Przebudzenie+Mocy-2015-671051" target="_blank"><img src="img/cz7.jpg" alt="Przebudzenie Mocy"></a>
+		</section>
+		<section class="one-third-port">
+			<a href="https://www.filmweb.pl/film/Gwiezdne+wojny%3A+Ostatni+Jedi-2017-671049" target="_blank"><img src="img/cz8.jpg" alt="Ostatni Jedi"></a>
+		</section>
+<div class="clearfix"></div>
+    <a id="historia"></a>
+	<section class="left-col">
+		<h2>A long time ago in a galaxy far, far away..</h2>
+			<p style="text-indent: 6%;">Zdanie Dawno, dawno temu w odległej galaktyce... rozpoczynające każdy z filmów jest jedyną wskazówką co do miejsca i czasu akcji. Wydarzenia pokazane w filmach są mitami przeszłości, na wzór fabuły baśni oraz starożytnych eposów o herosach.
+
+Akcja filmów i innych kanonicznych elementów franczyzy opisuje ponad 60 lat historii. Akcja utworów należących do Legend sięga nawet ponad 25 000 lat wstecz, oraz wiek naprzód, opisując niekanoniczną przyszłość w której obca rasa zwana Yuuzhan Vong przybywa z innej galaktyki.
+
+Galaktykę zamieszkują ludzie i wiele innych inteligentnych gatunków, często humanoidalnych. Powszechny jest hipernapęd umożliwiający szybkie podróże międzygwiezdne. Broń palna jest rzadka, zamiast niej używane są blastery, lecz charakterystyczną dla franczyzy bronią są miecze świetlne, z których korzystają dysponujący Mocą Jedi i wrodzy im Sithowie. </p>
+	</section>
+	<section class="sidebar">
+		<section class="contact">
+		<div class="quote-container">
+			
+			
+                <a href="#" class="quote-button">Pokaż filmy</a>
+                <blockquote>
+                <div id="filmy"></div>
+           </blockquote>
+            </div>
+		</section>
+	</section>
+<div class="clearfix"></div>
+    <a id="contact"></a>
+		<section class="parallax2">
+			<div class = "parallax-inner1">
+			<div class ="cytat"> 
+			<span>"Zaiste cudowny umysł dziecka jest.." ~ Mistrz Yoda</span>
+			</div>
+            </div>
+		</section>
+<div class="clearfix"></div>
+    <a id="seriale"></a>
+		<h2>Seriale animowane</h2>
+		<section class="one-third-port-series">
+			<a href="https://www.filmweb.pl/serial/Gwiezdne+wojny%3A+Wojny+Klon%C3%B3w-2003-112992" target="_blank"><img src="img/serialwojnyklonow1.jpg" alt="Wojny Klonów (2003)"></a>
+		</section>
+		<section class="one-third-port-series">
+			<a href="https://www.filmweb.pl/serial/Gwiezdne+Wojny%3A+Wojny+Klon%C3%B3w-2008-281791" target="_blank"><img src="img/serialwojnyklonow.jpg" alt="Wojny Klonów (2008-2014)"></a>
+		</section>
+		<section class="one-third-port-series">
+			<a href="https://www.filmweb.pl/serial/Star+Wars%3A+Rebelianci-2014-689479" target="_blank"><img src="img/serialrebelianci.jpg" alt="Rebelianci"></a>
+		</section>
+		<section class="one-third-port-series">
+			<a href="https://www.filmweb.pl/serial/Gwiezdne+wojny%3A+Ruch+oporu-2018-811088" target="_blank"><img src="img/serialrezistance.jpg" alt="Ruch Oporu"/></a>
+		</section>
+<div class="clearfix"></div>
+<section class = "parallax-container">		
+			<img id="myImage" onclick="changeImage()" src="img/saberOFF.png" alt="Wyłączony miecz świetlny" width="100" height="180">
+</section>	
+			<div class="clearfix"></div>
+	<h2>Kontakt</h2>
+	<section class="contact">
+		<p>Bartosz Janiuk</p> 
+		<br class="break">
+		<p><a href="mailto:bartosz.janiukstudent.po.edu.pl">bartosz.janiuk@student.po.edu.pl</a></p>
+        <p>Informatyka II <br class="break"> Stacjonarne</p>
+        
+	</section>
+	
+<footer>
+<div class="container">
+<div class="box">
+   <h3>Opis Strony</h3> 
+   <p>Tematyka strony internetowej "Uniwersum Star Wars". Stworzona została na potrzebę zaliczenia przedmiotu Techniki Internetowe.</p>
+</div>  
+<div class="box">
+   <h3>Media Społecznościowe</h3> 
+ 
+       <ul class="social">
+			<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+   
+</div>  
+<div class="box">
+   <h3>Słowa kluczowe</h3> 
+   <span>#starwars</span>
+   <span>#jedi</span>
+   <span>#gwiezdnewojny</span>
+   <span>#wojnyklonow</span>
+   <span>#sith</span>
+   <span>#force</span>
+   <span>#thelastjedi</span>
+   <span>#darthvader</span>
+   <span>#skywalker</span>
+   <span>#lightsaber</span>
+   <span>#kenobi</span>
+   <span>#geonosis</span>
+   <span>#mustafar</span>
+   <span>#padawan</span>
+   <span>#sidious</span>
+   <span>#dooku</span>
+   <span>#kyloren</span>
+   <span>#yoda</span>
+   <span>#solo</span>
+</div>
+
+</div>  
+
+
+<div class = "footer-second">
+    <p>2019 &copy; Star Wars</p>
+ <div class="box-flex-child" onclick ="myFunction()"></div>
+</div> 
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+      (function(){
+                
+                var quoteButton = $('.quote-button'),
+                    blockquote = $('blockquote');
+                
+                quoteButton.on('click', function(e) {
+                    e.preventDefault();
+                    var quoteButtonText = quoteButton.text();
+                    
+                    blockquote.slideToggle('slow', function(){
+                        quoteButtonText == "Pokaż filmy" ? quoteButton.text("Schowaj") : quoteButton.text("Rozwiń");
+                    });
+    
+                });
+                
+            })();
+            
+        </script>
+</body>
+</html>
+
+
+
+
+

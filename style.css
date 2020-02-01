@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway'); /*--- Nav Font --*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway'); /*--- Heading Font --*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin-ext'); /*--- Clock Font --*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2C2C2C;
+	text-align: center;
+	text-decoration: underline;
+}
+p {
+	font-family: 'Raleway', serif;
+	color: #2C2C2C;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+
+span{
+    font-family: 'Raleway', serif;
+	color: cadetblue;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#zegar{
+    font-family: 'Source Code Pro', monospace;
+    color: #FFF;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+}
+.autor {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: cadetblue;
+    font-size: 140%;
+    line-height: 180%;
+    font-weight: 300;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(http://www.scififantasyhorror.co.uk/wp-content/uploads/2016/03/juho-salila-stormtrooper-art.jpg) no-repeat 50% 50%;
+	background-size: cover;
+    background-attachment: fixed;
+	display: table;
+	top: 0;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 600px;
+	
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 300%;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 0px 0px 250px #000;
+}
+
+.content h1{
+font-family: 'Raleway', serif;
+padding: 12px 24px !important;
+letter-spacing: 4px;
+color: #f1f1f1 !important;
+}
+.content p {
+	color: #FFF;
+}
+.inner {
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+/*--- Start Nav --*/
+nav {
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px;
+}
+nav ul {
+	list-style: none;
+	float: left;
+}
+nav ul li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 120%;
+}
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+nav ul, nav:active ul {
+	display: none;
+	padding: 8px 0;
+	left: 45px;
+	top: 60px;
+	width: 20%;
+	z-index: 1000;
+}
+
+.social{
+    padding-left: 0px;
+}
+nav li {
+	width: 100%;
+	padding: 8px 0px 0px 0px;
+	margin: 0;
+}
+nav:hover ul {
+	display: block;
+	position: absolute;
+}
+#menu-icon {
+	width: 30px;
+	height: 26px;
+	background: url(img/nav-icon.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+/*---End Nav --*/
+.left-col {
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+   .left-col-footer{
+    width: 30.333333%;
+	float: left;
+	margin: 4% 0 4% 4%;
+    color: #FFF;
+        
+    }
+.sidebar {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+.one-third-port {
+	text-align: center;
+    width: 18%;
+	padding: 1%;
+	float:left;
+}
+.one-third-port img {
+height: 378px;
+width: 263px;
+}
+.one-third-port img:hover {
+	opacity: .6;
+}
+
+.one-third-port-series {
+	text-align: center;
+    width: 23%;
+	padding: 1%;
+	float:left;
+}
+.one-third-port-series img {
+height: 378px;
+width: 263px;
+}
+
+.one-third-port-series img:hover {
+	opacity: .6;
+}
+
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.contact a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+.break {
+	display: none;
+}
+.clearfix {
+	clear: both;
+	height: 3%;
+}
+
+.quote-button {
+                display: block;
+                text-decoration: none;
+                padding: 12px 0;
+                color: #373f51;
+                background-color: #d8dbe2;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-align: center;
+            }
+            .quote-container blockquote {
+                display: none;
+                padding: 20px;
+                
+                color: #fff;
+               
+               
+            }
+.parallax1 {
+	
+//position: relative;
+border: 10px solid white;
+box-shadow: 0px 0px 5px 2px #ccc;   
+}
+
+.parallax-container { 
+border: 10px solid white;
+box-shadow: 0px 0px 5px 2px #ccc;
+display: flex;
+    align-content: center;
+}
+
+.parallax2 {
+	background: url("http://wallpapercave.com/wp/73RHDo6.jpg"); 
+	opacity: .7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+#parallax-inner {
+
+width: 70%;
+height: 500px;
+box-sizing: border-box;
+box-shadow: 5px 5px 10px grey;
+margin: 20px auto;	 	
+}
+
+#myImage{
+  cursor: pointer;  
+}
+
+.autor {
+   font-size: 120%;
+    
+}
+
+#parallax-inner img {
+            width: 100%;
+			height: 100%; 
+            animation: ani 2s linear;
+}
+@keyframes ani{
+    0%{transform: scale(1.2);}
+    1%{transform: scale(1.2);}
+    10%{transform: scale(1.2);}
+}
+
+.parallax-inner1 {
+min-height: 400px;
+		 	
+}
+.cytat{
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+}
+
+.cytat span{
+    letter-spacing: 4px;
+    color: #f1f1f1 !important;
+    font-weight: bold;
+    font-size: 220%;
+    
+}
+.social{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.social li{
+    display: inline;
+}
+
+.social i{
+    font-size: 270%;
+    margin: 1% 5% 7% 4%;
+    color: white;
+}
+.social i:hover{
+    color: #606060;
+}
+
+footer{
+    
+    background-color: #1B2127;
+    position: relative;
+    
+}
+
+.container{
+    display:flex;
+    background-color: #1B2127;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 27%;
+    margin: 2%;
+    /*
+    border: 1px solid white;
+    */
+    flex-grow:1;
+    padding: 1%;
+    min-height: 250px;
+}
+
+.box H3{
+    color: white;
+    font-size: 180%;
+    text-align: center;
+}
+
+.box p{
+    color: white;
+    font-size: 120%;
+    text-align: justify;
+}
+.box span{
+    font-size: 120%;
+    text-align: justify;
+}
+
+ .footer-second{
+   width: 100%;
+   background-color: #262B30;
+   display: flex;
+   justify-content: center;
+     
+      
+}
+
+ .footer-second p{
+     
+     color: white; 
+     text-align: center;
+     margin-bottom: 0;
+     padding: 20px;
+}
+
+
+.box-flex-child{
+  background-color: #f1f1f1;
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+line-height: 50px; 
+    
+}
+
+.newColorPage{
+background-color: aliceblue;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+    #menu-icon{
+        margin: 26px 0 0 26px;
+    }
+    nav ul, nav:active ul{
+        padding: 8px 0;
+        left: 23px;
+        top: 34px;
+        width: 50%;
+    }
+    inner{
+        font-size: 120%;
+        
+    }
+    
+    .cytat span{
+        font-size: 120%;
+         
+    }
+ 
+    .parallax-inner {
+	min-height: 200px;   
+}
+    
+    .content h1{
+        font-size: 180%;
+    }
+    p{
+        font-size: 120%;
+    }
+    
+    #zegar{
+   font-size: 120%;
+  
+}
+    h2{
+        font-size: 160%;
+    }
+    .left-col{
+    width: 91%;
+	padding: 0 6% 0 0;
+        
+    }
+    
+    .box {
+	width: 50%;
+}
+    
+    .sidebar{
+        width: 96%;
+        margin: 0 auto;
+    }
+    
+   
+    .one-third-port{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .one-third-port-series{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .container{
+    width: 100%;
+    margin: 0;
+    
+}
+    .box h3{
+    font-size: 140%;
+    }
+    .box p{
+        font-size: 80%;
+    }
+	.contact a{
+		word-wrap: break-word;
+	}
+    
+    #parallax-inner {
+
+width: 100%;
+height: auto;	
+        box-shadow: none;
+}
+    
+#parallax-inner img {
+
+    width: 100%;
+    height: auto;
+    animation: ani 2s linear;
+}
+
